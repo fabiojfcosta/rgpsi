@@ -40,7 +40,7 @@ h1 {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding: 2.5rem 10rem 2.5rem 10rem;
+    padding: 2.5rem 16rem 2.5rem 16rem;
   }
 
   .rg-info-container {
@@ -51,9 +51,11 @@ h1 {
     text-align: left;
   }
 
-  $breakpoint-tablet: 768px;
+
+
+  $breakpoint-tablet: 1200px;
     @media (max-width: $breakpoint-tablet) {
         .rg-container {
-            padding: 1rem!important;
+            padding: 2.5rem!important;
           }
     }
