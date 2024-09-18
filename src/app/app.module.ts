@@ -14,6 +14,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroductionComponent } from './layout/introduction/introduction.component';
 import { DividerModule } from 'primeng/divider';
+import { DividerComponent } from './layout/divider/divider.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DividerModule } from 'primeng/divider';
     Section3Component,
     Section4Component,
     ContactsComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule,

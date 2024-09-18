@@ -1,13 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
 
+html, body, body .p-component {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
 html {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 body {
-    font-family: var(--font-family);
-    font-weight: normal;
     background: var(--surface-ground);
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
