@@ -10,6 +10,7 @@ html, body, body .p-component {
 
 html {
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin:0;
 }
 
 h1 {
@@ -30,6 +32,7 @@ h1 {
     text-align: left;
   }
 
+  
   .rg-container {
     display: flex;
     flex-direction: column;
@@ -37,7 +40,7 @@ h1 {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding: 2.5rem 14rem 2.5rem 14rem;
+    padding: 2.5rem 10rem 2.5rem 10rem;
   }
 
   .rg-info-container {
@@ -47,3 +50,10 @@ h1 {
     align-items: center;
     text-align: left;
   }
+
+  $breakpoint-tablet: 768px;
+    @media (max-width: $breakpoint-tablet) {
+        .rg-container {
+            padding: 1rem!important;
+          }
+    }

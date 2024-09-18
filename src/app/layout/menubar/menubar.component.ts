@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import {MenuModule} from 'primeng/menu';
 import {MenuItem} from 'primeng/api';
-import {MegaMenuItem} from 'primeng/api';  //required when using MegaMenu
+import { ViewportScroller } from '@angular/common';
+
 
 @Component({
   selector: 'app-menubar',
@@ -12,18 +12,26 @@ export class MenubarComponent {
   public items: MenuItem[] | undefined;
 
   ngOnInit() {
-      this.items = [{
+      this.items = [
+        {
+          label: 'Introdução',
+          command: () => this.scroller.scrollToPosition([0,0])
+      },  
+      {
           label: 'Quem sou?',
-          routerLink: '/dashboard'
+          command: () => this.onScrollToAnchor("whoami")
       },
       {
-        label: 'O que faço?'
+        label: 'O que faço?',
+        command: () => this.onScrollToAnchor("functions")
       },
       {
-          label: 'Formação'
+          label: 'Formação',
+          command: () => this.onScrollToAnchor("studies")
       },
       {
-        label: 'Contactos'
+        label: 'Contactos',
+        command: () => this.scroller.scrollToAnchor("contacts")
       },
       {
         label: 'Mande uma mensagem sem compromissos',
@@ -32,4 +40,12 @@ export class MenubarComponent {
       }
     ];
   }
+
+  constructor(private scroller: ViewportScroller) {}
+
+  onScrollToAnchor(id: string) {
+    this.scroller.scrollToAnchor(id)
+  }
+   
+
 }

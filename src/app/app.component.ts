@@ -1,7 +1,6 @@
 
 import { Component } from '@angular/core';
 import { trigger, style, animate, transition } from '@angular/animations';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,6 +14,8 @@ import { trigger, style, animate, transition } from '@angular/animations';
     ])
   ]
 })
+
 export class AppComponent {
-  title = 'rg-psi';
+  title = 'Rafaela Garcia - Psicóloga';
+ 
 }

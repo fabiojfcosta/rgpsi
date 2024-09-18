@@ -1,11 +1,3 @@
-.profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    padding: 2.5rem 20rem 2.5rem 20rem;
-  }
-  
   .profile-image {
     width: 400px;
     height: 400px;
@@ -32,3 +24,11 @@
     display: flex;
     flex-direction: column;
   }
+
+  $breakpoint-tablet: 768px;
+  @media (max-width: $breakpoint-tablet) {
+    .profile-image {
+        width: 300px!important;
+        height: 300px!important;
+    }
+}
