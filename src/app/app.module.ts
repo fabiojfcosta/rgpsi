@@ -11,6 +11,7 @@ import { Section3Component } from './layout/section3/section3.component';
 import { Section4Component } from './layout/section4/section4.component';
 import { ContactsComponent } from './layout/contacts/contacts.component';
 import { TabMenuModule } from 'primeng/tabmenu';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TabMenuModule } from 'primeng/tabmenu';
     AppRoutingModule,
     PrimeNgModule,
     BrowserAnimationsModule,
-    TabMenuModule
+    TabMenuModule,
+    FontAwesomeModule
   ],
   providers: [
     provideClientHydration()

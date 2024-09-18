@@ -9,11 +9,12 @@ import {MegaMenuItem} from 'primeng/api';  //required when using MegaMenu
   styleUrl: './menubar.component.scss'
 })
 export class MenubarComponent {
-  public items: MenuItem[];
+  public items: MenuItem[] | undefined;
 
   ngOnInit() {
       this.items = [{
-          label: 'Quem sou?'
+          label: 'Quem sou?',
+          routerLink: '/dashboard'
       },
       {
         label: 'O que faço?'
@@ -23,6 +24,11 @@ export class MenubarComponent {
       },
       {
         label: 'Contactos'
+      },
+      {
+        label: 'Mande uma mensagem sem compromissos',
+        style: {'margin-left': 'auto'},
+        icon: 'pi pi-whatsapp'
       }
     ];
   }
