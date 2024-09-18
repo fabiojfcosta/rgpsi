@@ -12,6 +12,9 @@ import { Section4Component } from './layout/section4/section4.component';
 import { ContactsComponent } from './layout/contacts/contacts.component';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PanelModule } from 'primeng/panel';
+import { IntroductionComponent } from './layout/introduction/introduction.component';
+import { ImageModule } from 'primeng/image';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     Section2Component,
     Section3Component,
     Section4Component,
-    ContactsComponent
+    ContactsComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     PrimeNgModule,
     BrowserAnimationsModule,
     TabMenuModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    PanelModule,
+    ImageModule
   ],
   providers: [
     provideClientHydration()
