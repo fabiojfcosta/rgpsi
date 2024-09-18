@@ -15,7 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroductionComponent } from './layout/introduction/introduction.component';
 import { DividerModule } from 'primeng/divider';
 import { DividerComponent } from './layout/divider/divider.component';
-
+import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +35,8 @@ import { DividerComponent } from './layout/divider/divider.component';
     BrowserAnimationsModule,
     TabMenuModule,
     FontAwesomeModule,
-    DividerModule
+    DividerModule,
+    AnimateOnScrollModule
     
   ],
   providers: [
