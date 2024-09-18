@@ -1,4 +1,21 @@
-/*for testing*/
-p {
-    height : 500px!important;
-}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-detail {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+  
+  .pi {
+    font-size: 1.5rem;
+    color: #007ad9;
+  }
