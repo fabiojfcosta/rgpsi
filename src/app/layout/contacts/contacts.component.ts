@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contacts',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class ContactsComponent {
 
+  public email :string = "rafaelagarcia.psi@gmail.com";
+
+  constructor( 
+    private sanitizer: DomSanitizer
+    ){}
+
+ 
 }
