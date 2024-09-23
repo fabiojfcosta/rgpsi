@@ -8,10 +8,7 @@ html, body, body .p-component {
 }
 
 
-html {
-    font-size: 18px;
-    scroll-behavior: smooth;
-}
+
 
 body {
     background: var(--surface-ground);
@@ -21,9 +18,14 @@ body {
     margin:0;
 }
 
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
 h1 {
     font-size: 2.5rem;
-  }
+}
   
   p {
     font-size: 1.2rem;
@@ -68,4 +70,7 @@ h1 {
         .rg-container {
             padding: 2.5rem!important;
           }
+
+        
     }
+

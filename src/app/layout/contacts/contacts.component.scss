@@ -18,3 +18,12 @@
   i{
      margin-top:2.5px;
   }
+
+  $breakpoint-tablet: 1200px;
+  @media (max-width: $breakpoint-tablet) {
+        .contact-item {
+          min-width: 150px;
+        }
+
+      
+  }
