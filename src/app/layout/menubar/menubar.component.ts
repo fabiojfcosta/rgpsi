@@ -31,6 +31,10 @@ export class MenubarComponent {
           command: () => this.onScrollToAnchor("studies")
       },
       {
+        label: 'FAQ',
+        command: () => this.onScrollToAnchor("faq")
+    },
+      {
         label: 'Contactos',
         command: () => this.onScrollToAnchor("contacts")
       },

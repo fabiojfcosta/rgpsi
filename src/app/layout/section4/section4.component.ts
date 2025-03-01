@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-section4',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './section4.component.scss'
 })
 export class Section4Component {
+  public email :string = "rafaelagarcia.psi@gmail.com";
 
+  constructor( 
+    private sanitizer: DomSanitizer
+    ){}
 }
