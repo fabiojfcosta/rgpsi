@@ -9,6 +9,7 @@
         "@schematics/angular:component": {
           "style": "scss",
           "standalone": false
+          
         },
         "@schematics/angular:directive": {
           "standalone": false
@@ -24,7 +25,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/rgpsi",
+            "baseHref": "/",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -39,6 +41,7 @@
             "styles": [
               "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
               "src/styles.scss"
             ],
             "scripts": [],
