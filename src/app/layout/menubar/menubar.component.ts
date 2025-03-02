@@ -57,7 +57,7 @@ export class MenubarComponent {
       command: () => this.onScrollToAnchor("contacts")
     },
     {
-      label: 'Mande uma mensagem',
+      label: '',
       style: {'margin-left': 'auto'},
       icon: 'pi pi-whatsapp',
       command: () => this.openWhatsapp()
