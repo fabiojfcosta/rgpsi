@@ -8,8 +8,6 @@ html, body, body .p-component {
 }
 
 
-
-
 body {
     background: var(--surface-ground);
     color: var(--text-color);
@@ -69,8 +67,6 @@ h1 {
     @media (max-width: $breakpoint-tablet) {
         .rg-container {
             padding: 2.5rem!important;
-          }
-
-        
+          }  
     }
 
