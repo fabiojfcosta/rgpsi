@@ -23,16 +23,26 @@
 
   $breakpoint-tablet: 1200px;
   @media (max-width: $breakpoint-tablet) {
+
         .contact-item {
-          margin-right: 18.5px;
+          margin-right: 10.5px;
+        }
+
+        .contact-detail {
+          margin-left:5.5px;
         }
 
         a {
-          font-size: 18px!important;
+          font-size: 15px!important;
         }
 
         .contact-info{
           gap:0px!important;
+        }
+
+        i {
+          position:relative;
+          top: 2.5px;
         }
 
       

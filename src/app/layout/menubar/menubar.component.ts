@@ -33,7 +33,7 @@ export class MenubarComponent {
       {
         label: 'FAQ',
         command: () => this.onScrollToAnchor("faq")
-    },
+      },
       {
         label: 'Contactos',
         command: () => this.onScrollToAnchor("contacts")
@@ -47,11 +47,15 @@ export class MenubarComponent {
     ];
 
     this.itemsResponsive = [
-      {
+    {
         label: 'Início',
         style: {'padding': '2px'},
         command: () => this.scroller.scrollToPosition([0,0])
-    },  
+    },
+    {
+      label: 'FAQ',
+      command: () => this.onScrollToAnchor("faq")
+    },
     {
       label: 'Contactos',
       command: () => this.onScrollToAnchor("contacts")
@@ -73,6 +77,6 @@ export class MenubarComponent {
   }
    
   openWhatsapp(){
-    window.open("https://api.whatsapp.com/send?phone=926223656", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=928269839", "_blank");
   }
 }
