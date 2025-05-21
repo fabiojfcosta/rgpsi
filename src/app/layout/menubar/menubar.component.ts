@@ -39,9 +39,9 @@ export class MenubarComponent {
         command: () => this.onScrollToAnchor("contacts")
       },
       {
-        label: 'Mande uma mensagem',
+        label: 'Agende uma consulta',
         style: {'margin-left': 'auto'},
-        icon: 'pi pi-whatsapp',
+        icon: 'pi pi-calendar-clock',
         command: () => this.openWhatsapp()
       }
     ];
@@ -53,17 +53,13 @@ export class MenubarComponent {
         command: () => this.scroller.scrollToPosition([0,0])
     },
     {
-      label: 'FAQ',
-      command: () => this.onScrollToAnchor("faq")
-    },
-    {
       label: 'Contactos',
       command: () => this.onScrollToAnchor("contacts")
     },
     {
-      label: '',
+      label: 'Consultas',
       style: {'margin-left': 'auto'},
-      icon: 'pi pi-whatsapp',
+      icon: 'pi pi-calendar-clock',
       command: () => this.openWhatsapp()
     }
   ];

@@ -16,6 +16,7 @@ import { IntroductionComponent } from './layout/introduction/introduction.compon
 import { DividerModule } from 'primeng/divider';
 import { DividerComponent } from './layout/divider/divider.component';
 import { AnimateOnScrollModule } from 'primeng/animateonscroll';
+import { InfoComponent } from './layout/info/info.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
     Section4Component,
     ContactsComponent,
     IntroductionComponent,
-    DividerComponent
+    DividerComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
