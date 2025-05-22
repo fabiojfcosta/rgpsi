@@ -14,25 +14,33 @@ export class MenubarComponent {
 
   ngOnInit() {
       this.items = [
-        {
+      {
           label: 'Início',
           command: () => this.scroller.scrollToPosition([0,0])
-      },  
+      }, 
       {
           label: 'Quem sou?',
           command: () => this.onScrollToAnchor("whoami")
       },
       {
+          label: 'Abordagem Clínica',
+          command: () => this.onScrollToAnchor("approach")
+      },  
+      {
         label: 'O que faço?',
         command: () => this.onScrollToAnchor("functions")
       },
       {
-          label: 'Formação',
-          command: () => this.onScrollToAnchor("studies")
+          label: 'Informações',
+          command: () => this.onScrollToAnchor("info")
       },
       {
-        label: 'FAQ',
-        command: () => this.onScrollToAnchor("faq")
+          label: 'Preços',
+          command: () => this.onScrollToAnchor("payment")
+      },
+      {
+          label: 'Formação',
+          command: () => this.onScrollToAnchor("studies")
       },
       {
         label: 'Contactos',

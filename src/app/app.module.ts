@@ -17,6 +17,8 @@ import { DividerModule } from 'primeng/divider';
 import { DividerComponent } from './layout/divider/divider.component';
 import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 import { InfoComponent } from './layout/info/info.component';
+import { ApproachComponent } from './layout/approach/approach.component';
+import { PaymentComponent } from './layout/payment/payment.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +28,11 @@ import { InfoComponent } from './layout/info/info.component';
     Section3Component,
     Section4Component,
     ContactsComponent,
+    PaymentComponent,
     IntroductionComponent,
     DividerComponent,
-    InfoComponent
+    InfoComponent,
+    ApproachComponent
   ],
   imports: [
     BrowserModule,
