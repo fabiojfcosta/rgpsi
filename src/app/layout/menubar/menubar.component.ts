@@ -23,10 +23,6 @@ export class MenubarComponent {
           command: () => this.onScrollToAnchor("whoami")
       },
       {
-          label: 'Abordagem Clínica',
-          command: () => this.onScrollToAnchor("approach")
-      },  
-      {
         label: 'O que faço?',
         command: () => this.onScrollToAnchor("functions")
       },
@@ -37,6 +33,10 @@ export class MenubarComponent {
       {
           label: 'Preços',
           command: () => this.onScrollToAnchor("payment")
+      },
+      {
+          label: 'Bolsa Social',
+          command: () => this.onScrollToAnchor("extra1")
       },
       {
           label: 'Formação',

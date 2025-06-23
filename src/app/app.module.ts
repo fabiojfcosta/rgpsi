@@ -19,6 +19,7 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 import { InfoComponent } from './layout/info/info.component';
 import { ApproachComponent } from './layout/approach/approach.component';
 import { PaymentComponent } from './layout/payment/payment.component';
+import { Extra1Component } from './layout/extra1/extra1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import { PaymentComponent } from './layout/payment/payment.component';
     IntroductionComponent,
     DividerComponent,
     InfoComponent,
-    ApproachComponent
+    ApproachComponent,
+    Extra1Component
   ],
   imports: [
     BrowserModule,
