@@ -40,7 +40,7 @@ h1 {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding: 2.5rem 8rem 2.5rem 8rem;
+    padding: 2.5rem 6.5rem 2.5rem 6.5rem;
   }
 
   .rg-info-container {
@@ -63,7 +63,7 @@ h1 {
     color:rgb(107, 48, 48);
   }
 
-  $breakpoint-tablet: 1200px;
+  $breakpoint-tablet: 1024px;
     @media (max-width: $breakpoint-tablet) {
         .rg-container {
             padding: 2.5rem!important;

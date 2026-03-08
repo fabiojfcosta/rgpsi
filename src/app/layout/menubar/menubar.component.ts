@@ -35,10 +35,6 @@ export class MenubarComponent {
           command: () => this.onScrollToAnchor("payment")
       },
       {
-          label: 'Bolsa Social',
-          command: () => this.onScrollToAnchor("extra1")
-      },
-      {
           label: 'Formação',
           command: () => this.onScrollToAnchor("studies")
       },

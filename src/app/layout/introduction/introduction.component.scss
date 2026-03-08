@@ -25,7 +25,7 @@
     flex-direction: column;
   }
 
-  $breakpoint-tablet: 768px;
+  $breakpoint-tablet: 1367px;
   @media (max-width: $breakpoint-tablet) {
     .profile-image {
         width: 300px!important;
