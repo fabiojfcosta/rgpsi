@@ -23,10 +23,6 @@ export class MenubarComponent {
           command: () => this.onScrollToAnchor("whoami")
       },
       {
-        label: 'O que faço?',
-        command: () => this.onScrollToAnchor("functions")
-      },
-      {
           label: 'Informações',
           command: () => this.onScrollToAnchor("info")
       },
@@ -77,6 +73,6 @@ export class MenubarComponent {
   }
    
   openWhatsapp(){
-    window.open("https://api.whatsapp.com/send?phone=928269839", "_blank");
+    window.open("https://forms.gle/RaHKvqjysMtBReD8A", "_blank");
   }
 }
