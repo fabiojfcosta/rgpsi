@@ -57,7 +57,7 @@ export class MenubarComponent {
       command: () => this.onScrollToAnchor("contacts")
     },
     {
-      label: 'Consultas',
+      label: 'Agendar',
       style: {'margin-left': 'auto'},
       icon: 'pi pi-calendar-clock',
       command: () => this.openWhatsapp()
